@@ -26,7 +26,7 @@ while c > -1:
 	enc_int -= enc_int//9**c*9**c 
 	c -= 1 
 print(f'{find_in_o(8)[1] = }')
-print(F'{o[1][0] = }')
+print(f'{o[1][0] = }')
 left_arr = []
 right_arr = []
 for tst in enc_arr:
