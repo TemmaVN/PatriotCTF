@@ -1,45 +1,5 @@
 #!/usr/bin/env python3
 
-# nums = open('keystream_leak.txt', 'r').read().splitlines()
-# nums = list(map(int, nums))
-# print(f'{nums = }')
-
-# bs = list(open('cipher.txt', 'rb').read())
-# print(f'{bs = }')
-# out = [(num & 255)^b for num, b in zip(nums, bs)]
-
-# print(bytes(out))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 nums = open('keystream_leak.txt','r').read().splitlines()
 nums = list(map(int,nums))
 print(f'{nums = }')
